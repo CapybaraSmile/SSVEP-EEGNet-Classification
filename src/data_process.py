@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 def get_segmented_data(data, num_segments, segment_length):
     num_targets, num_channels, _, num_trials = data.shape
